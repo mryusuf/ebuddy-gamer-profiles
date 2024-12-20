@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D261DFE72D15588E00613D80 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D261DFE62D15588E00613D80 /* FirebaseAuth */; };
+		D261DFE92D15588E00613D80 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D261DFE82D15588E00613D80 /* FirebaseFirestore */; };
+		D261DFEB2D15588E00613D80 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D261DFEA2D15588E00613D80 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D261DFB62D13E44500613D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D261DF9D2D13E44400613D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D261DFA42D13E44400613D80;
+			remoteInfo = EbuddyGamerProfiles;
+		};
+		D261DFC02D13E44500613D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D261DF9D2D13E44400613D80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D261DFA42D13E44400613D80;
+			remoteInfo = EbuddyGamerProfiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D261DFA52D13E44400613D80 /* EbuddyGamerProfiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EbuddyGamerProfiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D261DFB52D13E44500613D80 /* EbuddyGamerProfilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EbuddyGamerProfilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D261DFBF2D13E44500613D80 /* EbuddyGamerProfilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EbuddyGamerProfilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D261DFA72D13E44400613D80 /* EbuddyGamerProfiles */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EbuddyGamerProfiles;
+			sourceTree = "<group>";
+		};
+		D261DFB82D13E44500613D80 /* EbuddyGamerProfilesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EbuddyGamerProfilesTests;
+			sourceTree = "<group>";
+		};
+		D261DFC22D13E44500613D80 /* EbuddyGamerProfilesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EbuddyGamerProfilesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D261DFA22D13E44400613D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D261DFE72D15588E00613D80 /* FirebaseAuth in Frameworks */,
+				D261DFE92D15588E00613D80 /* FirebaseFirestore in Frameworks */,
+				D261DFEB2D15588E00613D80 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D261DFB22D13E44500613D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D261DFBC2D13E44500613D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D261DF9C2D13E44400613D80 = {
+			isa = PBXGroup;
+			children = (
+				D261DFA72D13E44400613D80 /* EbuddyGamerProfiles */,
+				D261DFB82D13E44500613D80 /* EbuddyGamerProfilesTests */,
+				D261DFC22D13E44500613D80 /* EbuddyGamerProfilesUITests */,
+				D261DFA62D13E44400613D80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D261DFA62D13E44400613D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D261DFA52D13E44400613D80 /* EbuddyGamerProfiles.app */,
+				D261DFB52D13E44500613D80 /* EbuddyGamerProfilesTests.xctest */,
+				D261DFBF2D13E44500613D80 /* EbuddyGamerProfilesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D261DFA42D13E44400613D80 /* EbuddyGamerProfiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D261DFC92D13E44500613D80 /* Build configuration list for PBXNativeTarget "EbuddyGamerProfiles" */;
+			buildPhases = (
+				D261DFA12D13E44400613D80 /* Sources */,
+				D261DFA22D13E44400613D80 /* Frameworks */,
+				D261DFA32D13E44400613D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D261DFA72D13E44400613D80 /* EbuddyGamerProfiles */,
+			);
+			name = EbuddyGamerProfiles;
+			packageProductDependencies = (
+				D261DFE62D15588E00613D80 /* FirebaseAuth */,
+				D261DFE82D15588E00613D80 /* FirebaseFirestore */,
+				D261DFEA2D15588E00613D80 /* FirebaseStorage */,
+			);
+			productName = EbuddyGamerProfiles;
+			productReference = D261DFA52D13E44400613D80 /* EbuddyGamerProfiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D261DFB42D13E44500613D80 /* EbuddyGamerProfilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D261DFCC2D13E44500613D80 /* Build configuration list for PBXNativeTarget "EbuddyGamerProfilesTests" */;
+			buildPhases = (
+				D261DFB12D13E44500613D80 /* Sources */,
+				D261DFB22D13E44500613D80 /* Frameworks */,
+				D261DFB32D13E44500613D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D261DFB72D13E44500613D80 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D261DFB82D13E44500613D80 /* EbuddyGamerProfilesTests */,
+			);
+			name = EbuddyGamerProfilesTests;
+			packageProductDependencies = (
+			);
+			productName = EbuddyGamerProfilesTests;
+			productReference = D261DFB52D13E44500613D80 /* EbuddyGamerProfilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D261DFBE2D13E44500613D80 /* EbuddyGamerProfilesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D261DFCF2D13E44500613D80 /* Build configuration list for PBXNativeTarget "EbuddyGamerProfilesUITests" */;
+			buildPhases = (
+				D261DFBB2D13E44500613D80 /* Sources */,
+				D261DFBC2D13E44500613D80 /* Frameworks */,
+				D261DFBD2D13E44500613D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D261DFC12D13E44500613D80 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D261DFC22D13E44500613D80 /* EbuddyGamerProfilesUITests */,
+			);
+			name = EbuddyGamerProfilesUITests;
+			packageProductDependencies = (
+			);
+			productName = EbuddyGamerProfilesUITests;
+			productReference = D261DFBF2D13E44500613D80 /* EbuddyGamerProfilesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D261DF9D2D13E44400613D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D261DFA42D13E44400613D80 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D261DFB42D13E44500613D80 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D261DFA42D13E44400613D80;
+					};
+					D261DFBE2D13E44500613D80 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D261DFA42D13E44400613D80;
+					};
+				};
+			};
+			buildConfigurationList = D261DFA02D13E44400613D80 /* Build configuration list for PBXProject "EbuddyGamerProfiles" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D261DF9C2D13E44400613D80;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D261DFE52D15588E00613D80 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D261DFA62D13E44400613D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D261DFA42D13E44400613D80 /* EbuddyGamerProfiles */,
+				D261DFB42D13E44500613D80 /* EbuddyGamerProfilesTests */,
+				D261DFBE2D13E44500613D80 /* EbuddyGamerProfilesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D261DFA32D13E44400613D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D261DFB32D13E44500613D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D261DFBD2D13E44500613D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D261DFA12D13E44400613D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D261DFB12D13E44500613D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D261DFBB2D13E44500613D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D261DFB72D13E44500613D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D261DFA42D13E44400613D80 /* EbuddyGamerProfiles */;
+			targetProxy = D261DFB62D13E44500613D80 /* PBXContainerItemProxy */;
+		};
+		D261DFC12D13E44500613D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D261DFA42D13E44400613D80 /* EbuddyGamerProfiles */;
+			targetProxy = D261DFC02D13E44500613D80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D261DFC72D13E44500613D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D261DFC82D13E44500613D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D261DFCA2D13E44500613D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EbuddyGamerProfiles/Preview Content\"";
+				DEVELOPMENT_TEAM = BRZXSR26A5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mryusuf.EbuddyGamerProfiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D261DFCB2D13E44500613D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EbuddyGamerProfiles/Preview Content\"";
+				DEVELOPMENT_TEAM = BRZXSR26A5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mryusuf.EbuddyGamerProfiles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D261DFCD2D13E44500613D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRZXSR26A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mryusuf.EbuddyGamerProfilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EbuddyGamerProfiles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EbuddyGamerProfiles";
+			};
+			name = Debug;
+		};
+		D261DFCE2D13E44500613D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRZXSR26A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mryusuf.EbuddyGamerProfilesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EbuddyGamerProfiles.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EbuddyGamerProfiles";
+			};
+			name = Release;
+		};
+		D261DFD02D13E44500613D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRZXSR26A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mryusuf.EbuddyGamerProfilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EbuddyGamerProfiles;
+			};
+			name = Debug;
+		};
+		D261DFD12D13E44500613D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BRZXSR26A5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.mryusuf.EbuddyGamerProfilesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EbuddyGamerProfiles;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D261DFA02D13E44400613D80 /* Build configuration list for PBXProject "EbuddyGamerProfiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D261DFC72D13E44500613D80 /* Debug */,
+				D261DFC82D13E44500613D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D261DFC92D13E44500613D80 /* Build configuration list for PBXNativeTarget "EbuddyGamerProfiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D261DFCA2D13E44500613D80 /* Debug */,
+				D261DFCB2D13E44500613D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D261DFCC2D13E44500613D80 /* Build configuration list for PBXNativeTarget "EbuddyGamerProfilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D261DFCD2D13E44500613D80 /* Debug */,
+				D261DFCE2D13E44500613D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D261DFCF2D13E44500613D80 /* Build configuration list for PBXNativeTarget "EbuddyGamerProfilesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D261DFD02D13E44500613D80 /* Debug */,
+				D261DFD12D13E44500613D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D261DFE52D15588E00613D80 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D261DFE62D15588E00613D80 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D261DFE52D15588E00613D80 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D261DFE82D15588E00613D80 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D261DFE52D15588E00613D80 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D261DFEA2D15588E00613D80 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D261DFE52D15588E00613D80 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D261DF9D2D13E44400613D80 /* Project object */;
+}
