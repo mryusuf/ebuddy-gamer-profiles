@@ -1,0 +1,12 @@
+//
+//  Staging.xcconfig
+//  EbuddyGamerProfiles
+//
+//  Created by Indra on 20/12/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+PRODUCT_BUNDLE_IDENTIFIER = io.github.mryusuf.EbuddyGamerProfilesStaging
+GOOGLESERVICES_PATH = EbuddyGamerProfiles/Configurations/Staging/GoogleService-Info-Staging.plist
+DISPLAY_NAME = EbuddyGamerProfilesStaging

@@ -1,0 +1,12 @@
+//
+//  Production.xcconfig
+//  EbuddyGamerProfiles
+//
+//  Created by Indra on 20/12/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+PRODUCT_BUNDLE_IDENTIFIER = io.github.mryusuf.EbuddyGamerProfiles
+GOOGLESERVICES_PATH = EbuddyGamerProfiles/Configurations/Production/GoogleService-Info-Production.plist
+DISPLAY_NAME = EbuddyGamerProfiles
