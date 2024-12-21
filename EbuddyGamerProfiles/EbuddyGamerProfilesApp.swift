@@ -9,11 +9,11 @@ import SwiftUI
 
 @main
 struct EbuddyGamerProfilesApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @UIApplicationDelegateAdaptor(FirebaseAppDelegate.self) var firebaseAppDelegate
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UserProfilesView()
         }
     }
 }
